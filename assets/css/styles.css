@@ -116,7 +116,7 @@ a {
 
 /* ------------HERO-------------- */
 .hero {
-    padding-top: 100px;
+    padding: 100px 0;
     background: #fff8f3;
 }
 
