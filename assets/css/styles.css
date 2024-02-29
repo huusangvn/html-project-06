@@ -323,7 +323,8 @@ a {
 
 /* ABOUT */
 .about {
-    margin-top: 71px;
+    padding: 71px;
+    background: #fff8f3;
 }
 
 .about__inner {
@@ -337,7 +338,15 @@ a {
     width: 62%;
 }
 
+.feature-about {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 16px;
+    color: #5e6085;
+}
+
 .about-heading {
+    margin-top: 15px;
     width: 446px;
 }
 
@@ -423,6 +432,8 @@ a {
 
 .about__img {
     display: flex;
+    position: relative;
+    z-index: 2;
     width: 450px;
     height: 602px;
     object-fit: cover;
@@ -436,7 +447,6 @@ a {
     height: 336px;
     border-radius: 16px;
     background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
-    z-index: -1;
 }
 
 .info__about-img {
