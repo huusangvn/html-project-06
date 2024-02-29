@@ -1,53 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My project 05</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My project 05</title>
+        <!-- Reset -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
 
-    <!-- Reset -->
-    <link rel="stylesheet" href="./assets/css/reset.css">
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+            rel="stylesheet"
+        />
 
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
-        rel="stylesheet">
+        <!-- Styles -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="./assets/css/styles.css">
-</head>
-
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <img src="./assets/icon/logo.svg" alt="logo" class="logo">
-                <nav class="nav">
-                    <ul class="nav__list-item">
-                        <li class="nav__item">
-                            <a href="#!">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#!">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#!">Services & Rates</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#!">Reviewa</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#!">Contacts us</a>
-                        </li>
-                    </ul>
-                </nav>
-                <button class="btn">Sign up</button>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="/" class="home-page"
+                        ><img
+                            src="./assets/icon/logo.svg"
+                            alt="logo"
+                            class="logo"
+                    /></a>
+                    <nav class="nav">
+                        <ul class="nav__list-item">
+                            <li class="nav__item">
+                                <a href="#!" class="active">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!">About</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!">Services & Rates</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!">Reviewa</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!">Contacts us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="header__btn">
+                        <a href="#!">Sign up</a>
+                    </button>
+                </div>
             </div>
-        </div>
-    </header>
-</body>
+        </header>
 
+        <!-- Main Tag -->
+        <main style="height: 20000px">
+            <!-- Hero -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <!-- Hero Image -->
+                        <section class="hero__image">
+                            <img
+                                src="./assets/img/hero-cat.png"
+                                alt=""
+                                class="hero__img"
+                            /><img
+                                src="./assets/img/hero-dog.png"
+                                alt=""
+                                class="hero__img hero__img--small"
+                            />
+
+                            <div class="hero__info--img">
+                                <div class="info__inner">
+                                    <div class="image__info-row">
+                                        <img
+                                            src="./assets/img/avarta-dog.png"
+                                            alt=""
+                                            class="avarta"
+                                        />
+                                        <h3 class="title-avarta">Pet Health</h3>
+                                    </div>
+
+                                    <div class="image__info-row">
+                                        <img
+                                            src="./assets/img/black-dog.png"
+                                            alt=""
+                                            class="avarta__black--dog avarta"
+                                        />
+                                        <h3 class="title-avarta">Pet care</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="union-img">
+                                <img
+                                    src="./assets/img/Union.png"
+                                    alt=""
+                                    class="union"
+                                /><img
+                                    src="./assets/img/Union-cricle.png"
+                                    alt=""
+                                    class="union-cricle"
+                                />
+                            </div>
+                        </section>
+
+                        <!-- Hero content -->
+                        <section class="hero__content">
+                            <h1 class="hero__heading">
+                                Established & Trusted Pet Care Service
+                            </h1>
+                            <p class="section-desc hero__desc">
+                                Discover a wide variety of Pawsitive services to
+                                choose from, including daycare, private walks,
+                                office duty and spa.
+                            </p>
+
+                            <!-- Cta-hero -->
+                            <div class="cta-hero">
+                                <button class="btn hero-btn">
+                                    <a href="#!"
+                                        ><span>Book a Meet</span>
+                                        <img
+                                            src="./assets/img/hero__arrow-btn.svg"
+                                            alt=""
+                                            class="hero__arrow-btn"
+                                    /></a></button
+                                ><a href="#!" class="hero-link"
+                                    >Schedule a Call</a
+                                >
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
