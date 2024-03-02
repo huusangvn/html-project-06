@@ -892,7 +892,6 @@ a {
 
 .bnt-our {
   margin: 148px auto 0;
-
   margin-top: 148px;
 }
 
@@ -1246,7 +1245,7 @@ a {
 
 .item-desc {
   margin-top: 16px;
-  width: 351px;
+
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 24px;
