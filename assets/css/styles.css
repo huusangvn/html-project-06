@@ -796,3 +796,102 @@ a {
 .btn-column {
   margin: 45px auto 0;
 }
+
+/* --------OUR------------ */
+.our {
+  padding-top: 65px;
+  margin-top: 65px;
+}
+
+.our__header {
+  text-align: center;
+}
+
+.sub-heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 16px;
+  color: #5e6085;
+}
+
+.our-heading {
+  margin-top: 15px;
+}
+
+.list-image {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 35px;
+}
+
+.item-img {
+  width: 266px;
+  height: 383px;
+}
+
+.list-img {
+  position: relative;
+  text-align: center;
+}
+
+.people {
+  width: 233px;
+  height: 290px;
+  border-radius: 130px;
+  object-fit: cover;
+  transition: 0.25s ease;
+}
+
+/* .list-img:hover .people {
+  transform: scale(1.1);
+} */
+
+.bg,
+.sub-bg {
+  position: absolute;
+  z-index: -1;
+}
+
+.bg {
+  width: 234px;
+  height: 266px;
+  object-fit: cover;
+  border-radius: 129.5px;
+  bottom: 4px;
+  left: 16px;
+}
+
+.sub-bg {
+  top: 170px;
+  left: 0;
+}
+
+.sub-bg__reverse {
+  top: 30px;
+  left: -2px;
+}
+
+.info-img {
+  padding: 34px 36px;
+  text-align: center;
+}
+
+.our .job {
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 14px;
+  color: #656689;
+}
+.our .name {
+  margin-top: 14px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 22px;
+  color: #000958;
+}
+
+.bnt-our {
+  margin: 48px auto 0;
+}
