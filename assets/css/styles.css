@@ -60,6 +60,7 @@ a {
   font-weight: 500;
   line-height: 16px;
   color: var(--primary-color);
+  transition: 0.5s ease;
 }
 
 .btn a {
@@ -68,6 +69,11 @@ a {
   font-size: 1.6rem;
   line-height: 16px;
   color: var(--primary-color);
+}
+
+.btn:hover {
+  background: var(--primary-color);
+  color: #fff;
 }
 
 .section-heading {
@@ -1064,4 +1070,127 @@ a {
 
 .item-info.reduce::before {
   opacity: 0.3;
+}
+
+/* ------------REVIEW---------- */
+.review {
+  padding: 53px 0 53px 0;
+}
+
+.review__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.review-image {
+  height: 427px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 115px;
+}
+
+.review-img {
+  width: 274px;
+  height: 427px;
+  border-radius: 137px;
+}
+
+.review-bg {
+  position: absolute;
+  top: 77px;
+  right: 0px;
+  z-index: -1;
+}
+
+.review-content {
+  margin-top: 113px;
+}
+
+.review-desc {
+  margin-top: 24px;
+  width: 553px;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000;
+}
+
+.review-name {
+  margin-top: 34px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 18px;
+  color: #282828;
+}
+
+.review-name::before {
+  margin-bottom: 4px;
+  margin-right: 8px;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  line-height: 18px;
+  background: #000;
+  border-radius: 2px;
+}
+
+.review-arrow {
+  margin: 112px 44px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+  border-radius: 50%;
+  border: solid 1.5px var(--primary-color);
+  color: var(--primary-color);
+  transition: 0.5s ease;
+}
+
+.review-arrow-right {
+  rotate: 180deg;
+  margin-left: 76px;
+}
+
+.review-arrow:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.review-row {
+  position: absolute;
+  bottom: -56px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.review .rectangle {
+  margin-right: 8px;
+  width: 24px;
+  height: 8px;
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+.review .circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
+  transition: 0.5s ease;
+}
+
+.review .circle:hover {
+  width: 24px;
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+.review .circle + .circle {
+  margin-left: 8px;
 }
