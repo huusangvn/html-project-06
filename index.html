@@ -1,254 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My project 05</title>
 
-        <!-- Reset -->
-        <link rel="stylesheet" href="./assets/css/reset.css" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My project 05</title>
 
-        <!-- Font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
-            rel="stylesheet"
-        />
+    <!-- Reset -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
 
-        <!-- Styles -->
-        <link rel="stylesheet" href="./assets/css/styles.css" />
-    </head>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet" />
 
-    <body>
-        <header class="header">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="/" class="home-page"><img src="./assets/icon/logo.svg" alt="logo" class="logo" /></a>
+                <nav class="nav">
+                    <ul class="nav__list-item">
+                        <li class="nav__item">
+                            <a href="#!" class="active">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#!">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#!">Services & Rates</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#!">Reviewa</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#!">Contacts us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__btn">
+                    <a href="#!">Sign up</a>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Tag -->
+    <main style="height: 20000px">
+        <!-- Hero -->
+        <section class="hero">
             <div class="container">
-                <div class="header__inner">
-                    <a href="/" class="home-page"
-                        ><img
-                            src="./assets/icon/logo.svg"
-                            alt="logo"
-                            class="logo"
-                    /></a>
-                    <nav class="nav">
-                        <ul class="nav__list-item">
-                            <li class="nav__item">
-                                <a href="#!" class="active">Home</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#!">About</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#!">Services & Rates</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#!">Reviewa</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#!">Contacts us</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <button class="header__btn">
-                        <a href="#!">Sign up</a>
-                    </button>
+                <div class="hero__inner">
+                    <!-- Hero Image -->
+                    <section class="hero__image">
+                        <img src="./assets/img/hero-cat.png" alt="" class="hero__img" /><img
+                            src="./assets/img/hero-dog.png" alt="" class="hero__img hero__img--small" />
+
+                        <div class="hero__info--img">
+                            <div class="info__inner">
+                                <div class="image__info-row">
+                                    <img src="./assets/img/avarta-dog.png" alt="" class="avarta" />
+                                    <h3 class="title-avarta">Pet Health</h3>
+                                </div>
+
+                                <div class="image__info-row">
+                                    <img src="./assets/img/black-dog.png" alt="" class="avarta__black--dog avarta" />
+                                    <h3 class="title-avarta">Pet care</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="union-img">
+                            <img src="./assets/img/Union.png" alt="" class="union" /><img
+                                src="./assets/img/Union-cricle.png" alt="" class="union-cricle" />
+                        </div>
+                    </section>
+
+                    <!-- Hero content -->
+                    <section class="hero__content">
+                        <h1 class="hero__heading">
+                            Established & Trusted Pet Care Service
+                        </h1>
+                        <p class="section-desc hero__desc">
+                            Discover a wide variety of Pawsitive services to
+                            choose from, including daycare, private walks,
+                            office duty and spa.
+                        </p>
+
+                        <!-- Cta-hero -->
+                        <div class="cta-hero">
+                            <button class="btn hero-btn">
+                                <a href="#!"><span>Book a Meet</span>
+                                    <img src="./assets/img/hero__arrow-btn.svg" alt=""
+                                        class="hero__arrow-btn" /></a></button><a href="#!" class="hero-link">Schedule a
+                                Call</a>
+                        </div>
+                    </section>
                 </div>
             </div>
-        </header>
+        </section>
 
-        <!-- Main Tag -->
-        <main style="height: 20000px">
-            <!-- Hero -->
-            <section class="hero">
-                <div class="container">
-                    <div class="hero__inner">
-                        <!-- Hero Image -->
-                        <section class="hero__image">
-                            <img
-                                src="./assets/img/hero-cat.png"
-                                alt=""
-                                class="hero__img"
-                            /><img
-                                src="./assets/img/hero-dog.png"
-                                alt=""
-                                class="hero__img hero__img--small"
-                            />
-
-                            <div class="hero__info--img">
-                                <div class="info__inner">
-                                    <div class="image__info-row">
-                                        <img
-                                            src="./assets/img/avarta-dog.png"
-                                            alt=""
-                                            class="avarta"
-                                        />
-                                        <h3 class="title-avarta">Pet Health</h3>
+        <!-- About -->
+        <section class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <!-- Content -->
+                    <section class="about-content">
+                        <div class="feature-about">// About //</div>
+                        <h2 class="section-heading about-heading">
+                            Best Agency For Your Pet.
+                        </h2>
+                        <p class="section-desc about__desc">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <div class="about-checked">
+                            <form action="" method="post">
+                                <!-- Row1 -->
+                                <div class="form-row form-row__ml">
+                                    <div class="about-group">
+                                        <input type="checkbox" name="checkbox" id="Certified Groomer" class="form-input"
+                                            hidden />
+                                        <label for="Certified Groomer" class="form-label">Certified Groomer</label>
                                     </div>
-
-                                    <div class="image__info-row">
-                                        <img
-                                            src="./assets/img/black-dog.png"
-                                            alt=""
-                                            class="avarta__black--dog avarta"
-                                        />
-                                        <h3 class="title-avarta">Pet care</h3>
+                                    <div class="about-group">
+                                        <input type="checkbox" name="checkbox" id="Animal Lover" class="form-input"
+                                            hidden />
+                                        <label for="Animal Lover" class="form-label">Animal Lover</label>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="union-img">
-                                <img
-                                    src="./assets/img/Union.png"
-                                    alt=""
-                                    class="union"
-                                /><img
-                                    src="./assets/img/Union-cricle.png"
-                                    alt=""
-                                    class="union-cricle"
-                                />
-                            </div>
-                        </section>
-
-                        <!-- Hero content -->
-                        <section class="hero__content">
-                            <h1 class="hero__heading">
-                                Established & Trusted Pet Care Service
-                            </h1>
-                            <p class="section-desc hero__desc">
-                                Discover a wide variety of Pawsitive services to
-                                choose from, including daycare, private walks,
-                                office duty and spa.
-                            </p>
-
-                            <!-- Cta-hero -->
-                            <div class="cta-hero">
-                                <button class="btn hero-btn">
-                                    <a href="#!"
-                                        ><span>Book a Meet</span>
-                                        <img
-                                            src="./assets/img/hero__arrow-btn.svg"
-                                            alt=""
-                                            class="hero__arrow-btn"
-                                    /></a></button
-                                ><a href="#!" class="hero-link"
-                                    >Schedule a Call</a
-                                >
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </section>
-
-            <!-- About -->
-            <section class="about">
-                <div class="container">
-                    <div class="about__inner">
-                        <!-- Content -->
-                        <section class="about-content">
-                            <div class="feature-about">// About //</div>
-                            <h2 class="section-heading about-heading">
-                                Best Agency For Your Pet.
-                            </h2>
-                            <p class="section-desc about__desc">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </p>
-                            <div class="about-checked">
-                                <form action="" method="post">
-                                    <!-- Row1 -->
-                                    <div class="form-row form-row__ml">
-                                        <div class="about-group">
-                                            <input
-                                                type="checkbox"
-                                                name="checkbox"
-                                                id="Certified Groomer"
-                                                class="form-input"
-                                                hidden
-                                            />
-                                            <label
-                                                for="Certified Groomer"
-                                                class="form-label"
-                                                >Certified Groomer</label
-                                            >
-                                        </div>
-                                        <div class="about-group">
-                                            <input
-                                                type="checkbox"
-                                                name="checkbox"
-                                                id="Animal Lover"
-                                                class="form-input"
-                                                hidden
-                                            />
-                                            <label
-                                                for="Animal Lover"
-                                                class="form-label"
-                                                >Animal Lover</label
-                                            >
-                                        </div>
+                                <!-- Row2 -->
+                                <div class="form-row">
+                                    <div class="about-group">
+                                        <input type="checkbox" name="checkbox" id="14+ Years Experience"
+                                            class="form-input" hidden />
+                                        <label for="14+ Years Experience" class="form-label">14+ Years
+                                            Experience</label>
                                     </div>
-
-                                    <!-- Row2 -->
-                                    <div class="form-row">
-                                        <div class="about-group">
-                                            <input
-                                                type="checkbox"
-                                                name="checkbox"
-                                                id="14+ Years Experience"
-                                                class="form-input"
-                                                hidden
-                                            />
-                                            <label
-                                                for="14+ Years Experience"
-                                                class="form-label"
-                                                >14+ Years Experience</label
-                                            >
-                                        </div>
-                                        <div class="about-group">
-                                            <input
-                                                type="checkbox"
-                                                name="checkbox"
-                                                id="Pet Parent Of 3 Dogs"
-                                                class="form-input"
-                                                hidden
-                                            />
-                                            <label
-                                                for="Pet Parent Of 3 Dogs"
-                                                class="form-label"
-                                                >Pet Parent Of 3 Dogs</label
-                                            >
-                                        </div>
+                                    <div class="about-group">
+                                        <input type="checkbox" name="checkbox" id="Pet Parent Of 3 Dogs"
+                                            class="form-input" hidden />
+                                        <label for="Pet Parent Of 3 Dogs" class="form-label">Pet Parent Of 3
+                                            Dogs</label>
                                     </div>
-                                </form>
-                            </div>
-                        </section>
-                        <!-- IMAGE -->
-                        <div class="about-image">
-                            <img
-                                src="./assets/img/about-img.png"
-                                alt=""
-                                class="about__img"
-                            />
-
-                            <div class="half__bg-img"></div>
-
-                            <div class="info__about-img">
-                                <div class="info__inner">
-                                    <h3 class="number__info">20+</h3>
-                                    <span class="desc__info"
-                                        >Years Experience</span
-                                    >
-                                    <img
-                                        src="./assets/img/foot.png"
-                                        alt=""
-                                        class="about__foot"
-                                    />
                                 </div>
+                            </form>
+                        </div>
+                    </section>
+                    <!-- IMAGE -->
+                    <div class="about-image">
+                        <img src="./assets/img/about-img.png" alt="" class="about__img" />
+
+                        <div class="half__bg-img"></div>
+
+                        <div class="info__about-img">
+                            <div class="info__inner">
+                                <h3 class="number__info">20+</h3>
+                                <span class="desc__info">Years Experience</span>
+                                <img src="./assets/img/foot.png" alt="" class="about__foot" />
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
-    </body>
+            </div>
+        </section>
+
+        <!-- Vacation -->
+        <section class="vacation">
+            <div class="container">
+                <div class="vacation__inner">
+
+                    <!-- Image -->
+                    <div class="vacation__image">
+                        <img src="./assets/img/double-dog.png" alt="" class="vac-img">
+
+                        <img src="./assets/icon/vac1.svg" alt="" class="icon-img icon-vac1">
+                        <img src="./assets/icon/vac2.svg" alt="" class="icon-img icon-vac2">
+                        <img src="./assets/icon/vac3.svg" alt="" class="icon-img icon-vac3">
+
+                        <img src="./assets/icon/triangle1.svg" alt="" class="icon-img icon-triangle1">
+                        <img src="./assets/icon/triangle2.svg" alt="" class="icon-img icon-triangle2">
+
+                        <img src="./assets/icon/cricle-vac.svg" alt="" class="icon-img icon-cricle">
+                    </div>
+
+                    <!-- Content -->
+                    <section class="vacation__content">
+                        <h2 class="section-heading vacation-heading">Taking A Vacation?
+                            So Is Your Pet.</h2>
+                        <p class="section-desc vacation-desc">We offer long-term and short-term boarding. Every dog has
+                            its own
+                            private,
+                            spacious room and daily individual time in
+                            our large play yard.</p>
+                        <div class="form-vaction">
+                            <form action="">
+                                <div class="vacation__row-icon">
+                                    <div class="group-icon">
+                                        <input type="checkbox" name="checkbox" id="PetBoarding" class="vac__form-input"
+                                            hidden>
+                                        <img src="./assets/icon/boarding.png" alt="boarding" class="img-icon">
+                                        <label for="PetBoarding" class="vac__form-label">PetBoarding</label>
+
+                                    </div>
+                                    <div class="group-icon">
+                                        <input type="checkbox" name="checkbox" id="daycare" class="vac__form-input"
+                                            hidden>
+                                        <img src="./assets/icon/daycare.png" alt="daycare" class="img-icon">
+                                        <label for="daycare" class="vac__form-label">Pet Daycare</label>
+
+                                    </div>
+                                    <div class="group-icon">
+                                        <input type="checkbox" name="checkbox" id="transport" class="vac__form-input"
+                                            hidden>
+                                        <img src="./assets/icon/transport.png" alt="transport" class="img-icon">
+                                        <label for="transport" class="vac__form-label">Pet Transport</label>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                        <p class="sub-desc section-desc">While you're on holiday, here's where your furry friends will
+                            spend
+                            their time.</p>
+                        <a href="#!" class="vacation__link">View more</a>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service -->
+        <section class="service">
+            <div class="container">
+                <div class="service__inner">
+                    <!-- Header -->
+                    <section class="service__header">
+                        <div class="question-service">What we do for you?</div>
+                        <h2 class="section-heading service-heading">Our Services</h2>
+                    </section>
+
+                    <!-- Content -->
+                    <section class="service__content">
+                        <div class="column-item">
+                            <!-- Item1 -->
+                            <div class="item">
+                                <div class="item__inner">
+                                    <h3 class="item-heading">Puppy Sitting</h3>
+                                    <p class="item-desc">Helping your new pup to be a good boy or girl isn’t always
+                                        easy,
+                                        but
+                                        we’re here to help.</p>
+                                    <a href="#!" class="item-link"><span class="info__item-link">Read More</span> <img
+                                            src="./assets/icon/arrow-link.svg" class="img-link"></a>
+                                </div>
+                            </div>
+
+                            <!-- Item2 -->
+                            <div class="item">
+                                <div class="item__inner">
+                                    <h3 class="item-heading">Dog Walking</h3>
+                                    <p class="item-desc">Choose from a 30, 45, or 60-minute visit to give your pet their
+                                        daily dose of fun-filled.</p>
+                                    <a href="#!" class="item-link"><span class="info__item-link">Read More</span> <img
+                                            src="./assets/icon/arrow-link.svg" class="img-link"> </a>
+                                </div>
+                            </div>
+
+                            <!-- Item3 -->
+                            <div class="item">
+                                <div class="item__inner">
+                                    <h3 class="item-heading">Pet Sitting</h3>
+                                    <p class="item-desc">While you’re away we can make sure your pet has all the food,
+                                        water, exercise, and, of course.</p>
+                                    <a href="#!" class="item-link"><span class="info__item-link">Read More</span> <img
+                                            src="./assets/icon/arrow-link.svg" class="img-link"> </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Column2 -->
+                        <div class="column-item">
+                            <div class="column-item-img">
+                                <img src="./assets/img/dog-service.png" alt="" class="img-item">
+                                <div class="bg__item-img"></div>
+                            </div>
+                            <button class="btn btn-column">View All Services</button>
+                        </div>
+                        <!-- Column3 -->
+                        <div class="column-item">
+                            <!-- Item1 -->
+                            <div class="item">
+                                <div class="item__inner">
+                                    <h3 class="item-heading">Overnight Care</h3>
+                                    <p class="item-desc">If you’re away for the night, we can stay the night or stop by
+                                        in the evening and morning.</p>
+                                    <a href="#!" class="item-link"><span class="info__item-link">Read More</span> <img
+                                            src="./assets/icon/arrow-link.svg" class="img-link"> </a>
+                                </div>
+                            </div>
+
+                            <!-- Item2 -->
+                            <div class="item">
+                                <div class="item__inner">
+                                    <h3 class="item-heading">Pet Taxi</h3>
+                                    <p class="item-desc">Does your pet need a lift to the groomers, vet, or dog park?
+                                        We’ve got their tail covered.</p>
+                                    <a href="#!" class="item-link"><span class="info__item-link">Read More</span> <img
+                                            src="./assets/icon/arrow-link.svg" class="img-link"> </a>
+                                </div>
+                            </div>
+
+                            <!-- Item3 -->
+                            <div class="item">
+                                <div class="item__inner">
+                                    <h3 class="item-heading">Pet Medical Admin</h3>
+                                    <p class="item-desc">Our team of experienced professionals can help with everything
+                                        from pills to injections.</p>
+                                    <a href="" class="item-link"><span class="info__item-link">Read More</span> <img
+                                            src="./assets/icon/arrow-link.svg" class="img-link"> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
 </html>
