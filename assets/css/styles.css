@@ -1075,6 +1075,7 @@ a {
 /* ------------REVIEW---------- */
 .review {
   padding: 53px 0 53px 0;
+  background: #fff8f3;
 }
 
 .review__inner {
@@ -1193,4 +1194,72 @@ a {
 
 .review .circle + .circle {
   margin-left: 8px;
+}
+
+/* -----BLOG------- */
+.blog {
+  padding: 130px 0 65px;
+  background: #fff8f3;
+}
+
+.blog__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desc-btn {
+  width: 350px;
+}
+
+.blog-btn {
+  margin-top: 24px;
+}
+
+.blog__list-item {
+  margin-top: 54px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 48px;
+}
+
+.blog-item {
+  width: 358px;
+}
+
+.item__header {
+  position: relative;
+}
+
+.item-img {
+  margin: 66px 0 0 36px;
+  position: relative;
+  display: inline-block;
+  width: 322px;
+  height: 296px;
+  object-fit: cover;
+  z-index: 99;
+}
+
+.item-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.blog-title {
+  margin-top: 28px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 34px;
+  color: var(--color-heading);
+}
+
+.item-desc {
+  margin-top: 16px;
+  width: 351px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 24px;
+  color: #656689;
 }
